@@ -1,0 +1,4 @@
+<!-- 呼び出し元 index.html.erbファイルの id="edit-post" と関連付けされる -->
+<!-- render 'edit' によって _edit.html.erbパーシャルファイルを読みに行く -->
+$("#edit-post").html("<%= escape_javascript(render 'edit') %>");
+$("#edit-post").modal("show");

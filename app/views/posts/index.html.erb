@@ -1,0 +1,8 @@
+<h1>投稿一覧</h1>
+<% @posts.each do |post| %>
+  <p><%= post.user.name %><%= link_to post.content, edit_post_path(post), remote:true  %></p> <!--remote:true必要-->
+<% end %>
+
+<!-- モーダルウィンドウ表示 -->
+<!-- id="edit-post" が edit.js.erbファイルと関連付けされる -->
+<div id="edit-post" class="modal fade" tabindex="-1" role="dialog" aria-hidden="true"></div>
