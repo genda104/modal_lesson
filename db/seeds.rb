@@ -3,7 +3,7 @@ User.create!(name: "ユーザー２")
 User.create!(name: "ユーザー３")
 
 Post.create!(content: "今日も勉強頑張る！", user_id: 1)
-Post.create!(content: "毎日PDCA", user_id: 1)
+Post.create!(content: "毎日PDCA報告する", user_id: 1)
 Post.create!(content: "絶対フリーエンジニアになる！", user_id: 1)
 Post.create!(content: "たまにはカフェで気分を変えて勉強", user_id: 1)
 Post.create!(content: "プログラミング楽しい", user_id: 1)
